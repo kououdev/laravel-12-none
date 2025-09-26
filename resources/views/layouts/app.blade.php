@@ -9,21 +9,6 @@
     <meta name="generator" content="Hugo 0.84.0" />
     <title>Dashboard Template · Bootstrap v5.0</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
     @livewireStyles
 </head>
 
