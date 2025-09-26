@@ -1,0 +1,8 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Tambahkan custom CSS kamu di bawah ini */
+body {
+    font-family: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
