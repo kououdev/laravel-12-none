@@ -34,6 +34,30 @@
     @include('partials.footer')
 
     @livewireScripts
+
+    {{-- Global Feather Icons Initialization --}}
+    <script>
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.feather) {
+                feather.replace();
+            }
+        });
+
+        // Reinitialize after Livewire updates
+        document.addEventListener('livewire:updated', function() {
+            if (window.feather) {
+                feather.replace();
+            }
+        });
+
+        // For Livewire navigation
+        document.addEventListener('livewire:navigated', function() {
+            if (window.feather) {
+                feather.replace();
+            }
+        });
+    </script>
 </body>
 
 </html>
